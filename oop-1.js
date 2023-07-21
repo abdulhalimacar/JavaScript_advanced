@@ -1,5 +1,5 @@
 const book = {
-    title:"the karamazov brothers", 
+    title:"the karamazov brothers",  
     author:"dossoyevski", 
     year:1886, 
     getsummary: function(){//burada görüldüğü üzere expression ile fonksiyonu yazdık çünkü arrow yazsaydık içeride this ifadesini kullanamazdık...  
