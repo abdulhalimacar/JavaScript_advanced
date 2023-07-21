@@ -1,6 +1,6 @@
 const book = {
     title:"the karamazov brothers",  
-    author:"dossoyevski", 
+    author:"dossoyevski",  
     year:1886, 
     getsummary: function(){//burada görüldüğü üzere expression ile fonksiyonu yazdık çünkü arrow yazsaydık içeride this ifadesini kullanamazdık...  
         return `${this.title} was written by ${this.author} in the year of ${this.year}`
